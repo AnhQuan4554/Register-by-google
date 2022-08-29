@@ -1,24 +1,26 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import {User_authen}from './Context/Authen_context'
 function App() {
+  const {googleSign,user,logOut} = User_authen()
+  
+  const handleGoogleSignIN  = async()=>{
+
+    try{
+      await googleSign();
+
+    }catch(error){
+      console.log(error)
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ 
+
+      <div >
+          <button onClick={handleGoogleSignIN}>Click Now</button>
+      </div>
+
   );
 }
 
