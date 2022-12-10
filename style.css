@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form {
+  padding: 10px 90px;
+  width: 535px;
+  margin: auto;
+  margin-top: 8px;
+  border: 2px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.imgRegister {
+  width: 343px;
+  height: 242px;
+}
+.form h1 {
+  text-align: center;
+  font-weight: 700;
+  line-height: 38px;
+
+  color: #2ba84a;
+}
+.inputItem {
+  margin-bottom: 20px;
+}
+.inputItem label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #353945;
+}
+.inputItem input {
+  display: block;
+  padding: 12px;
+  width: 343px;
+  height: 48px;
+  margin-top: 8px;
+
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
+  background: #f4f5f6;
+}
+button {
+  padding: 16px 80px;
+  font-size: 20px;
+  text-align: center;
+  width: 284px;
+  height: 56px;
+  display: block;
+  /* Neutral Color / 4 [day] */
+  border: none;
+  cursor: pointer;
+  background: #777e91;
+  border-radius: 4px;
+  color: #fff;
+  margin: 0 auto;
+}
+.routerSignIn {
+  margin-top: 8px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 52px;
+  color: #2ba84a;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* CSS cho phần liên hệ */
+.formContact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 130px;
+}
+.formContact h1 {
+  font-size: 48px;
+  display: flex;
+  color: #999999;
+  margin-bottom: 24px;
+}
+.formContact span {
+  color: #ff9d42;
+  font-size: 20px;
+  margin-bottom: 36px;
+  display: block;
+}
+.formInfor_item label {
+  display: block;
+  font-size: 16px;
+  color: #7e8e99;
+  margin-bottom: 12px;
+}
+.formInfor_item input {
+  border: 1px solid #3498ca;
+  border-radius: 6px;
+  width: 352px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+.formContact button {
+  width: 351px;
+  height: 54px;
+  background: #ea9546;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+.formContact .imgContact {
+  width: 450px;
+  height: 597;
+}
+.imgContact img {
+  width: 100%;
+  object-fit: cover;
+}
