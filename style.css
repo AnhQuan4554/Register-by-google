@@ -32,6 +32,7 @@ body {
   padding: 10px 90px;
   padding-bottom: 50px;
   max-width: 1151px;
+  min-height: 657px;
   position: relative;
   margin: auto;
   margin-top: 8px;
@@ -57,8 +58,8 @@ body {
   padding: 12px;
   width: 100%;
   height: 48px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -102,7 +103,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 130px;
 }
 .formContact h1 {
   font-size: 48px;
@@ -111,8 +111,9 @@ button {
   margin-bottom: 24px;
 }
 .formContact span {
-  color: #ff9d42;
-  font-size: 20px;
+  color: #8a8a89;
+  font-size: 16px;
+  margin-left: 60px;
   margin-bottom: 36px;
   display: block;
 }
@@ -123,7 +124,7 @@ button {
   margin-bottom: 12px;
 }
 .formInfor_item input {
-  border: 1px solid #3498ca;
+  border: 1px solid #000000;
   border-radius: 6px;
   width: 352px;
   height: 40px;
@@ -132,7 +133,7 @@ button {
 .formContact button {
   width: 351px;
   height: 54px;
-  background: #ea9546;
+  background: #060606;
   border-radius: 12px;
   color: #fff;
   font-size: 20px;
@@ -141,8 +142,8 @@ button {
   padding: 0;
 }
 .formContact .imgContact {
-  width: 450px;
-  height: 597;
+  width: 646px;
+  height: 636px;
 }
 .imgContact img {
   width: 100%;
