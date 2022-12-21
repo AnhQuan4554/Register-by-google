@@ -7,10 +7,32 @@ a {
   list-style: none;
   text-decoration: none;
   cursor: pointer;
+  font-size: 20px;
+}
+body {
+  padding: 50px 140px 0 140px;
+}
+.tittle {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.line {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #010101;
+  top: 160px;
+  left: 0;
+  right: 0;
 }
 .form {
   padding: 10px 90px;
-  width: 535px;
+  padding-bottom: 50px;
+  max-width: 1151px;
+  position: relative;
   margin: auto;
   margin-top: 8px;
   border: 2px solid #ccc;
@@ -19,13 +41,6 @@ a {
 .imgRegister {
   width: 343px;
   height: 242px;
-}
-.form h1 {
-  text-align: center;
-  font-weight: 700;
-  line-height: 38px;
-
-  color: #2ba84a;
 }
 .inputItem {
   margin-bottom: 20px;
@@ -40,15 +55,19 @@ a {
 .inputItem input {
   display: block;
   padding: 12px;
-  width: 343px;
+  width: 100%;
   height: 48px;
-  margin-top: 8px;
-
+  margin-top: 30px;
+  margin-bottom: 50px;
   border-radius: 5px;
   outline: none;
   border: none;
 
   background: #f4f5f6;
+}
+.inputItem input::placeholder {
+  color: #b1b5c4;
+  font-size: 18px;
 }
 button {
   padding: 16px 80px;
@@ -60,10 +79,14 @@ button {
   /* Neutral Color / 4 [day] */
   border: none;
   cursor: pointer;
-  background: #777e91;
+  background: #010101;
   border-radius: 4px;
   color: #fff;
   margin: 0 auto;
+}
+.linkURL {
+  text-align: center;
+  margin-top: 36px;
 }
 .routerSignIn {
   margin-top: 8px;
@@ -71,7 +94,6 @@ button {
   font-weight: 600;
   font-size: 16px;
   text-align: center;
-  margin-left: 52px;
   color: #2ba84a;
 }
 /* //////////////////////////////////////////////////////////////////////////////// */
