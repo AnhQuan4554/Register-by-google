@@ -10,8 +10,49 @@ a {
   font-size: 20px;
 }
 body {
-  padding: 50px 140px 0 140px;
+  padding: 0px 140px 0 140px;
 }
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.catagory {
+}
+.catagory span {
+  margin-left: 50px;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 20px;
+}
+.search {
+  position: relative;
+  width: 359px;
+  height: 46px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 25px;
+}
+.iconSearch {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.avatar,
+.car {
+  width: 70px;
+  height: 70px;
+}
+/* -------------------------------------------------------------- */
 .tittle {
   padding: 50px 150px;
   display: flex;
