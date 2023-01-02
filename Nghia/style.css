@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+.wrapTable {
+  padding: 20px 60px;
+}
+.container.css {
+  /* border: 1px solid #adaeb4; */
+  margin-top: 30px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+}
+.col-2.header {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: #232946;
+  padding: 16px 50px;
+}
+.col-3.header {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: #232946;
+  padding: 16px 50px;
+}
+.col-4.header {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: #232946;
+  padding: 16px 50px;
+}
+.col-2.colItem {
+  font-weight: 700;
+  font-size: 24px;
+  color: #232946;
+  /* padding: 16px 20px; */
+}
+.col-3.colItem {
+  font-weight: 700;
+  font-size: 24px;
+  color: #232946;
+  /* padding: 16px 20px; */
+}
+.col-4.colItem {
+  font-weight: 700;
+  font-size: 24px;
+  color: #232946;
+  padding: 16px 20px;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.item img {
+  width: 36px;
+  height: 24px;
+}
+.item h3 {
+  margin-left: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4358bb;
+}
+.item .code {
+  color: #232946;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 74px;
+  height: 40px;
+  background: #f1f1f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.row .border-bottom {
+  border-bottom: 1px solid #adaeb4;
+  padding: 16px 0;
+  height: 105px;
+}
+.item .performent {
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232946;
+}
+.item .performent span {
+  color: #f094a3;
+}
+h4.position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4358bb;
+  margin-bottom: 8px;
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgb(28, 222, 14);
+}
+.see {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+.see span {
+  font-size: 16px;
+  color: #4f546b;
+  margin-left: 6px;
+  font-weight: 400;
+}
+.review {
+  width: 200px;
+}
+.review p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn {
+  width: 82px;
+  height: 32px;
+  background: #4358bb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 0;
+}
