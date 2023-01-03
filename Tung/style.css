@@ -178,3 +178,19 @@ header {
   display: flex;
   align-items: center;
 }
+footer {
+  margin-top: 100px;
+  padding: 30px 100px;
+  background: #f7fafc;
+  width: 100%;
+}
+.arrFoot {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.itemFoot span {
+  display: block;
+  margin-bottom: 30px;
+}
