@@ -57,6 +57,7 @@ h4 {
   padding: 0 160px;
 }
 .itemCard {
+  position: relative;
   width: 22%;
   height: 384px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
@@ -109,4 +110,13 @@ h4 {
 }
 .wrapNotes img {
   margin-right: 8px;
+}
+.seeMore {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border: 0;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
 }
