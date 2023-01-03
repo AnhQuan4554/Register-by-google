@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+.wrapBanner {
+  position: relative;
+}
+.banner {
+  height: 232px;
+  width: 100%;
+  background: linear-gradient(
+      270deg,
+      #ffffff 27.6%,
+      rgba(139, 139, 139, 0.546875) 82.81%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(.jpg), #d9d9d9;
+  background-image: url(./imgNghia/banner.svg);
+}
+.tittleBanner {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: #4f546b;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 584px;
+}
+.bodyPrice h2 {
+  margin: 48px 0;
+  color: #4f546b;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0 250px;
+}
+.arrayCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 160px;
+}
+.itemCard {
+  width: 22%;
+  height: 384px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+}
+.itemCard_header {
+  width: 100%;
+  padding: 24px 36px;
+  background: #4358bb;
+  color: #fbfbfb;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+}
+.itemCar-price {
+  margin-top: 8px;
+  text-align: center;
+  color: #4358bb;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  position: relative;
+}
+.itemCar-price::after {
+  content: "";
+  position: absolute;
+  width: 85%;
+  bottom: -8px;
+  height: 1px;
+  background-color: #f094a3;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wrapNotes {
+  margin-top: 24px;
+  width: 100%;
+  padding: 0 22px;
+}
+.note {
+  display: flex;
+  align-items: center;
+}
+.note span {
+  color: #4f546b;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.wrapNotes img {
+  margin-right: 8px;
+}
